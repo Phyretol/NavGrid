@@ -73,7 +73,7 @@ public class NavGrid {
         return coords;
     }
 
-    public struct GridCoords {
+    private struct GridCoords {
         public int i;
         public int j;
 
@@ -91,7 +91,7 @@ public class NavGrid {
         }
     }
 
-    public class PathNode : IComparable {
+    private class PathNode : IComparable {
         public PathNode previous;
         public GridCoords coords;
         public float g;
